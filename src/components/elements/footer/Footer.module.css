@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a {
+    color: black;
+    margin: 10px;
+}
+
+.container a:hover {
+    color: gray;
+    transition: .25s all ease-in-out;
+}

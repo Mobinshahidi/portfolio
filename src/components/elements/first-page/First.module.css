@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background: url("../../../assets/Untitled.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container__biography {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.biography {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    line-height: 35px;
+    min-height: 430px;
+    max-height: 450px;
+}
+
+.biography p:first-child {
+    font-size: 35px;
+}
+
+.biography p {
+    min-width: 430px;
+    max-width: 430px;
+    font-size: 28px;
+}
+
+.icons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icons a {
+    color: black;
+    margin: 10px 25px;
+}
+
+.icons a:hover {
+    color: gray;
+    rotate: 10deg;
+    transition: .25s all ease-in-out;
+}
+
+.container__links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.email {
+    flex: 1;
+    margin: 20px 20px;
+    padding: 25px;
+    border: 1px solid #3D3B3B;
+    border-radius: 15px;
+    background-color: #3D3B3B;
+    color: white;
+    text-decoration: none;
+
+}
+
+.cv {
+    flex: 1;
+    margin: 20px 20px;
+    padding: 25px;
+    border: 1px solid #3D3B3B;
+    border-radius: 15px;
+    background-color: #3D3B3B;
+    color: white;
+    text-decoration: none;
+}
+
+.email:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+
+.cv:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
