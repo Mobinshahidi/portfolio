@@ -12,7 +12,7 @@ function App() {
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 1440 320"
-				style={{ margin: '0', padding: '0', display: 'block'}}
+				style={{ margin: '0', padding: '0', display: 'block' }}
 			>
 				<path
 					fill="#3D3B3B"
@@ -23,7 +23,7 @@ function App() {
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 1440 320"
-				style={{ margin: '0', padding: '0', display: 'block'}}
+				style={{ margin: '0', padding: '0', display: 'block' }}
 			>
 				<path
 					fill="#3D3B3B"
@@ -35,7 +35,7 @@ function App() {
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 1440 320"
-				style={{ margin: '0', padding: '0', display: 'block'}}
+				style={{ margin: '0', padding: '0', display: 'block', height: '50vh' }}
 			>
 				<path
 					fill="#3D3B3B"
@@ -46,7 +46,7 @@ function App() {
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 1440 320"
-				style={{ margin: '0', padding: '0', display: 'block'}}
+				style={{ margin: '0', padding: '0', display: 'block', height: '50vh' }}
 			>
 				<path
 					fill="#3D3B3B"
