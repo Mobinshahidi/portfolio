@@ -54,7 +54,7 @@ const First = () => {
 						onInit={(typewriter) => {
 							typewriter
 								.typeString(
-									'Restrictions are not defined for me , for this reason I use Linux to learn new things, I love learning new things, and I always learn new things every time. I shape my life with html, css, tailwind and... and make rules with JavaScript and React.',
+									'Restrictions are not defined for me, for this reason I use Linux to learn new things, I love learning new things, and I always learn new things every time. I shape my life with html, css, tailwind and... and make rules with JavaScript and React.',
 								)
 								.start();
 						}}

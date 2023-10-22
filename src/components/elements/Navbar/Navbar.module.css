@@ -32,5 +32,9 @@ body {
 
 .navbar a:hover {
     color: gray;
-
+}
+@media screen and (max-width:767px) {
+    .navbar{
+        display: none;
+    }
 }
