@@ -56,12 +56,12 @@
 .icons a {
     color: black;
     margin: 10px 25px;
+    transition: .25s all ease-in-out;
 }
 
 .icons a:hover {
     color: gray;
     rotate: 10deg;
-    transition: .25s all ease-in-out;
 }
 
 .container__links {
@@ -79,7 +79,7 @@
     background-color: #3D3B3B;
     color: white;
     text-decoration: none;
-
+    transition: .4s all ease-in-out;
 }
 
 .cv {
@@ -91,16 +91,15 @@
     background-color: #3D3B3B;
     color: white;
     text-decoration: none;
+    transition: .4s all ease-in-out;
 }
 
 .email:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
-    transition: .4s all ease-in-out;
 }
 
 .cv:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
-    transition: .4s all ease-in-out;
 }
