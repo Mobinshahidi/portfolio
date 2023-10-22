@@ -29,12 +29,12 @@
 
 .text {
     margin: 30px 30px 30px 0;
-    padding: 50px;
+    padding: 10px;
     width: 250px;
     height: 150px;
     border: 3px solid black;
     border-radius: 10px;
-    resize: none   ;
+    resize: none;
 
 }
 
@@ -46,13 +46,14 @@
     border-radius: 15px;
     color: white
 }
-.send:hover{
+
+.send:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    transition:.2s all ease-in-out;
+    transition: .2s all ease-in-out;
 }
 
 input:hover {
-      border-color: #3d3b3b;
+    border-color: #3d3b3b;
     transition: .2s all ease-in;
     color: #333;
     cursor: pointer;
@@ -64,4 +65,33 @@ textarea:hover {
     transition: .2s all ease-in;
     color: #333;
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        margin: 20px 50px;
+        font-size: 1.8rem;
+    }
+
+    .name {
+        max-width: 150px;
+    }
+
+    .email {
+        max-width: 150px;
+    }
+
+    textarea::placeholder {
+        font-size: 10px;
+    }
+
+    .text {
+        max-width: 150px;
+        max-height: 300px;
+    }
+
+    .send {
+        margin: 0 28px 30px;
+    }
+
 }
