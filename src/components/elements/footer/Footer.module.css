@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .container {
     display: flex;
     justify-content: center;

@@ -112,9 +112,9 @@
         align-items: center;
         width: 100vw;
         height: 100vh;
-        background: url("../../../assets/blob-haikei.svg");
+        background: url("../../../assets/blob-haikei (767).svg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
     }
 
@@ -126,23 +126,28 @@
     }
 
     .biography {
-        margin:15px;
+        margin: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        line-height: 35px;
+        line-height: 30px;
     }
 
     .biography p:first-child {
+        justify-content: center;
+        align-items: center;
         font-size: 28px;
+        min-width: 350px;
+        max-width: 350px;
+
     }
 
     .biography p {
-        min-width: 350px;
-        max-width: 350px;
+        min-width: 250px;
+        max-width: 250px;
         font-size: 20px;
-        margin:20px;
+        margin-bottom: 40px;
         text-align: justify;
     }
 
@@ -157,6 +162,7 @@
         margin: 10px 25px;
         transition: .25s all ease-in-out;
     }
+
     .container__links {
         display: flex;
         align-items: center;
@@ -166,6 +172,7 @@
 
     .email {
         margin: 15px;
+        margin-top: 30px;
         padding: 25px;
         border: 1px solid #3D3B3B;
         border-radius: 15px;
@@ -185,4 +192,100 @@
         text-decoration: none;
         transition: .4s all ease-in-out;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width:1439px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+        background: url("../../../assets/Untitled(767).svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+   
+.container__biography {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.biography {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    line-height: 35px;
+    min-height: 430px;
+    max-height: 450px;
+    text-align: justify;
+}
+
+.biography p:first-child {
+    font-size: 35px;
+}
+
+.biography p {
+    min-width: 430px;
+    max-width: 430px;
+    font-size: 28px;
+}
+
+.icons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icons a {
+    color: black;
+    margin: 10px 25px;
+    transition: .25s all ease-in-out;
+}
+
+.icons a:hover {
+    color: gray;
+    rotate: 10deg;
+}
+
+.container__links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.email {
+    flex: 1;
+    margin: 20px 20px;
+    padding: 25px;
+    border: 1px solid #3D3B3B;
+    border-radius: 15px;
+    background-color: #3D3B3B;
+    color: white;
+    text-decoration: none;
+    transition: .4s all ease-in-out;
+}
+
+.cv {
+    flex: 1;
+    margin: 20px 10px;
+    padding: 25px 54px;
+    border: 1px solid #3D3B3B;
+    border-radius: 15px;
+    background-color: #3D3B3B;
+    color: white;
+    text-decoration: none;
+    transition: .4s all ease-in-out;
+}
+
+
 }

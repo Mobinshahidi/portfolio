@@ -58,3 +58,12 @@
   object-fit: cover;
   border-radius: 18px;
 }
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 1440px) {
+
+}

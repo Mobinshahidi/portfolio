@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Fourth.module.css';
 import Contact from './parts/Contact';
-// import Navbar from '../../Navbar/Navbar.jsx';
 import { BsFileArrowUp } from 'react-icons/bs';
 import { Element } from 'react-scroll';
 
@@ -21,7 +20,7 @@ const Fourth = () => {
 				</div>
 				<Contact />
 			</div>
-			<BsFileArrowUp className={styles.up} style={{ color: '#3d3b3b' }} />
+			{/* <BsFileArrowUp className={styles.up} style={{ color: '#3d3b3b' }} /> */}
 		</Element>
 	);
 };
