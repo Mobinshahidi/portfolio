@@ -64,6 +64,8 @@
     line-break: loose;
     padding: 30px;
     gap: 15px;
+    text-align: justify;
+    line-height: 25px;
 }
 
 .up {

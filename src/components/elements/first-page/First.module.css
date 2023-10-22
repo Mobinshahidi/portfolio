@@ -34,6 +34,7 @@
     line-height: 35px;
     min-height: 430px;
     max-height: 450px;
+    text-align: justify;
 }
 
 .biography p:first-child {
@@ -84,7 +85,7 @@
 
 .cv {
     flex: 1;
-    margin: 20px 20px;
+    margin: 20px 10px;
     padding: 25px;
     border: 1px solid #3D3B3B;
     border-radius: 15px;

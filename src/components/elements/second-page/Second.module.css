@@ -39,6 +39,7 @@
   min-height: 430px;
   max-height: 430px;
   z-index: 1;
+  text-align: justify;
 }
 
 .biography p {
