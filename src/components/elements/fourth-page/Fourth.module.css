@@ -55,8 +55,8 @@
 }
 
 .text {
-    min-width: 400px;
     text-align: left;
+    min-width: 400px;
     max-width: 400px;
     color: black;
     font-weight: bold;
@@ -79,3 +79,14 @@
 .up:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
+@media screen and (max-width: 767px) {
+    .contact{
+        max-width: 350px;
+    }
+    .text{
+        display: none;
+    }
+    .title{
+        font-size: 1.6rem;
+    }
+  }
