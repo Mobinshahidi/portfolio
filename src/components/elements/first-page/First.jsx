@@ -4,6 +4,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { FaHashnode } from 'react-icons/fa6';
+import { Element } from 'react-scroll';
 import styles from './First.module.css';
 import cv from '../../../assets/Mobin-Shahidi-cv.pdf';
 
@@ -31,7 +32,7 @@ const First = () => {
 		},
 	];
 	return (
-		<div className={styles.container}>
+		<Element name="first" className={styles.container}>
 			<div className={styles.container__biography}>
 				<div className={styles.icons}>
 					{icons.map((icon) => (
@@ -53,7 +54,7 @@ const First = () => {
 						onInit={(typewriter) => {
 							typewriter
 								.typeString(
-									'Restrictions are not defined for me , for this reason I use Linux to learn new things, I love learning new things, and I always learn new things every time. I shape my life with html, css, tailwind and ... and make rules with JavaScript and React.',
+									'Restrictions are not defined for me , for this reason I use Linux to learn new things, I love learning new things, and I always learn new things every time. I shape my life with html, css, tailwind and... and make rules with JavaScript and React.',
 								)
 								.start();
 						}}
@@ -69,7 +70,7 @@ const First = () => {
 					Download CV
 				</a>
 			</div>
-		</div>
+		</Element>
 	);
 };
 
