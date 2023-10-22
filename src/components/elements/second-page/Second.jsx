@@ -1,9 +1,10 @@
 import React from 'react';
 import SliderPic from './parts/SliderPic.jsx';
 import styles from './Second.module.css';
+import { Element } from 'react-scroll';
 const Second = () => {
 	return (
-		<div>
+		<Element name='second'>
 			<div className={styles.container}>
 				<div className={styles.biography}>
 					<h1 className={styles.title}>Who am i?</h1>
@@ -24,7 +25,7 @@ const Second = () => {
 			<div className={styles.photo}>
 				<SliderPic />
 			</div>
-		</div>
+		</Element>
 	);
 };
 

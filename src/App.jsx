@@ -57,7 +57,7 @@ function App() {
 			<Third />
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 1440 320"
+				viewBox="0 0 1440 318"
 				style={{ margin: '0', padding: '0', display: 'block', height: '50vh' }}
 			>
 				<path

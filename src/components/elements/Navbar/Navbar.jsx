@@ -9,7 +9,7 @@ const Navbar = () => {
 		<div className={styles.navbar}>
 			<Link
 				activeClass="active"
-				to={Second}
+				to="second"
 				spy={true}
 				smooth={true}
 				offset={-70}
@@ -19,7 +19,7 @@ const Navbar = () => {
 			</Link>
 			<Link
 				activeClass="active"
-				to={Third}
+				to="third"
 				spy={true}
 				smooth={true}
 				offset={-70}
@@ -29,7 +29,7 @@ const Navbar = () => {
 			</Link>
 			<Link
 				activeClass="active"
-				to={Fourth}
+				to="fourth"
 				spy={true}
 				smooth={true}
 				offset={-70}

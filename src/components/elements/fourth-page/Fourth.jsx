@@ -3,10 +3,11 @@ import styles from './Fourth.module.css';
 import Contact from './parts/Contact';
 // import Navbar from '../../Navbar/Navbar.jsx';
 import { BsFileArrowUp } from 'react-icons/bs';
+import { Element } from 'react-scroll';
 
 const Fourth = () => {
 	return (
-		<div className={styles.container}>
+		<Element name='fourth' className={styles.container}>
 			<div className={styles.contact}>
 				<div className={styles.contact__text}>
 					<span className={styles.title}>Contact me</span>
@@ -21,7 +22,7 @@ const Fourth = () => {
 				<Contact />
 			</div>
 			<BsFileArrowUp className={styles.up} style={{ color: '#3d3b3b' }} />
-		</div>
+		</Element>
 	);
 };
 

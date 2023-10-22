@@ -13,9 +13,9 @@
 .container a {
     color: black;
     margin: 10px;
+    transition: .25s all ease-in-out;
 }
 
 .container a:hover {
     color: gray;
-    transition: .25s all ease-in-out;
 }

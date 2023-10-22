@@ -10,6 +10,7 @@ import { FaJava } from 'react-icons/fa';
 import { FaGitAlt } from 'react-icons/fa';
 import styles from './Third.module.css';
 import Skill from './Parts/Skill';
+import { Element } from 'react-scroll';
 const Third = () => {
 	const skills = [
 		{
@@ -59,7 +60,7 @@ const Third = () => {
 		},
 	];
 	return (
-		<div className={styles.container}>
+		<Element name='third' className={styles.container}>
 			<h2 className={styles.title}>Skills</h2>
 			<div className={styles.skills}>
 				<div className={styles.skill}>
@@ -71,7 +72,7 @@ const Third = () => {
 				<br />
 				<br />
 			</div>
-		</div>
+		</Element>
 	);
 };
 
