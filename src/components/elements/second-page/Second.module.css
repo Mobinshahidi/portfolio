@@ -59,11 +59,25 @@
   border-radius: 18px;
 }
 @media screen and (max-width: 767px) {
-
+  .title{
+    font-size: 28px;
+  }
+  .biography p{
+    font-size: 20px;
+    line-height: 23px;
+    min-width:250px ;
+  }
 }
-@media screen and (max-width: 1024px) {
 
+@media screen and (min-width: 768px) and (max-width:1439px) {
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../assets/blob-scatter-haikei-second.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: none;
+  background-position: center;
 }
-@media screen and (max-width: 1440px) {
-
 }

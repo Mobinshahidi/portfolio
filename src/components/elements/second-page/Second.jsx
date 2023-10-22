@@ -1,5 +1,4 @@
 import React from 'react';
-import SliderPic from './parts/SliderPic.jsx';
 import styles from './Second.module.css';
 import { Element } from 'react-scroll';
 const Second = () => {
@@ -21,9 +20,6 @@ const Second = () => {
 						both for tech pursuits and the various aspects of my life.
 					</p>
 				</div>
-			</div>
-			<div className={styles.photo}>
-				<SliderPic />
 			</div>
 		</Element>
 	);
