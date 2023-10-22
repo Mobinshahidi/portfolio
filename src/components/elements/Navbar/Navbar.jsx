@@ -1,19 +1,27 @@
 import { Link, animateScroll as scroll } from 'react-scroll';
 import React from 'react';
-import Second from '../second-page/Second';
-import Third from '../third-page/Third';
-import Fourth from '../fourth-page/Fourth';
 import styles from './Navbar.module.css';
 const Navbar = () => {
 	return (
 		<div className={styles.navbar}>
+			
+			<Link
+				activeClass="active"
+				to="first"
+				spy={true}
+				smooth={true}
+				offset={-70}
+				duration={1000}
+			>
+				Home
+			</Link>
 			<Link
 				activeClass="active"
 				to="second"
 				spy={true}
 				smooth={true}
 				offset={-70}
-				duration={500}
+				duration={1000}
 			>
 				About me
 			</Link>
@@ -23,7 +31,7 @@ const Navbar = () => {
 				spy={true}
 				smooth={true}
 				offset={-70}
-				duration={500}
+				duration={1000}
 			>
 				Skills
 			</Link>
@@ -33,7 +41,7 @@ const Navbar = () => {
 				spy={true}
 				smooth={true}
 				offset={-70}
-				duration={500}
+				duration={1000}
 			>
 				Contact me
 			</Link>
