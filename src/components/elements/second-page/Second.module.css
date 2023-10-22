@@ -35,9 +35,9 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
-  line-height: 35px;
-  min-height: 430px;
-  max-height: 430px;
+  line-height: 37px;
+  min-height: 450px;
+  max-height: 450px;
   z-index: 1;
   text-align: justify;
 }
