@@ -59,6 +59,9 @@
   border-radius: 18px;
 }
 @media screen and (max-width: 767px) {
+  .container{
+    background: white;
+    }
   .title{
     font-size: 28px;
   }

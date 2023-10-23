@@ -80,6 +80,9 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 @media screen and (max-width: 767px) {
+    .container{
+    background: white;
+    }
     .contact{
         max-width: 350px;
     }
