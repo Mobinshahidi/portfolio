@@ -10,8 +10,8 @@ const Navbar = () => {
 				to="first"
 				spy={true}
 				smooth={true}
-				offset={-70}
-				duration={1000}
+				offset={-50}
+				duration={1200}
 			>
 				Home
 			</Link>
@@ -20,8 +20,8 @@ const Navbar = () => {
 				to="second"
 				spy={true}
 				smooth={true}
-				offset={-70}
-				duration={1000}
+				offset={-50}
+				duration={1200}
 			>
 				About me
 			</Link>
@@ -30,8 +30,8 @@ const Navbar = () => {
 				to="third"
 				spy={true}
 				smooth={true}
-				offset={-70}
-				duration={1000}
+				offset={-50}
+				duration={1200}
 			>
 				Skills
 			</Link>
@@ -40,8 +40,8 @@ const Navbar = () => {
 				to="fourth"
 				spy={true}
 				smooth={true}
-				offset={-70}
-				duration={1000}
+				offset={-50}
+				duration={1200}
 			>
 				Contact me
 			</Link>

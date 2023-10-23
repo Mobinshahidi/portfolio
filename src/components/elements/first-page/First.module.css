@@ -236,10 +236,6 @@
     transition: .25s all ease-in-out;
 }
 
-.icons a:hover {
-    color: gray;
-    rotate: 10deg;
-}
 
 .container__links {
     display: flex;
