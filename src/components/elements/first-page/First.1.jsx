@@ -5,10 +5,12 @@ import { FaGithub } from 'react-icons/fa';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { FaHashnode } from 'react-icons/fa6';
 import { Element } from 'react-scroll';
+import { Sling as Hamburger } from 'hamburger-react';
 import styles from './First.module.css';
 import cv from '../../../assets/Mobin-Shahidi-cv.pdf';
 
-const First = () => {
+export const First = () => {
+	const [,] = useState();
 	const icons = [
 		{
 			name: 'telegram',
@@ -29,6 +31,14 @@ const First = () => {
 			name: 'hashnode',
 			icon: <FaHashnode />,
 			url: 'https://hashnode.com/@mobinshahidi',
+		},
+		{
+			name: 'hamburger',
+			icon: (
+				<div className={styles.hamburger}>
+					<Hamburger />
+				</div>
+			),
 		},
 	];
 	return (
@@ -62,7 +72,7 @@ const First = () => {
 				</div>
 			</div>
 			<div className={styles.container__links}>
-				<a className={styles.email} href="mailto:mowbinsh@gmail.com">
+				<a className={styles.email} href="mailto:example@example.com">
 					mowbinsh@gmail.com
 				</a>
 				<a href={cv} download="" className={styles.cv}>
@@ -73,5 +83,3 @@ const First = () => {
 		</Element>
 	);
 };
-
-export default First;
