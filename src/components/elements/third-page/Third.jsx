@@ -70,9 +70,8 @@ const Third = () => {
 					viewport={{ root: scrollRef }}
 					whileInView={{ opacity: 1 }}
 					transition={{
-						duration: 0.9,
-						delay: 0.8,
-						ease: [0, 0.71, 0.2, 1.01],
+						duration: 2,
+						delay: 0.2,
 					}}
 					className={styles.skills}
 				>
