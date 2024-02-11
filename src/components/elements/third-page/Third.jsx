@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { FaLinux } from 'react-icons/fa';
 import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3 } from 'react-icons/fa';
@@ -11,6 +11,7 @@ import { FaGitAlt } from 'react-icons/fa';
 import styles from './Third.module.css';
 import Skill from './Parts/Skill';
 import { Element } from 'react-scroll';
+import { motion } from 'framer-motion';
 const Third = () => {
 	const skills = [
 		{
@@ -59,19 +60,32 @@ const Third = () => {
 			title: 'LINUX',
 		},
 	];
+	const scrollRef = useRef(null);
 	return (
-		<Element name='third' className={styles.container}>
-			<h2 className={styles.title}>Skills</h2>
-			<div className={styles.skills}>
-				<div className={styles.skill}>
-					{skills.map((skill) => (
-						<Skill key={skill.id} icon={skill.icon} title={skill.title} />
-					))}
-				</div>
-				<br />
-				<br />
-				<br />
-			</div>
+		<Element name="third" className={styles.container}>
+			{/* <div ref={scrollRef}> */}
+				<h2 className={styles.title}>Skills</h2>
+				<motion.div
+					initial={{ opacity: 0 }}
+					viewport={{ root: scrollRef }}
+					whileInView={{ opacity: 1 }}
+					transition={{
+						duration: 0.9,
+						delay: 0.8,
+						ease: [0, 0.71, 0.2, 1.01],
+					}}
+					className={styles.skills}
+				>
+					<div className={styles.skill}>
+						{skills.map((skill) => (
+							<Skill key={skill.id} icon={skill.icon} title={skill.title} />
+						))}
+					</div>
+					<br />
+					<br />
+					<br />
+				</motion.div>
+			{/* </div> */}
 		</Element>
 	);
 };

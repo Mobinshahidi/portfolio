@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './Second.module.css';
 import { Element } from 'react-scroll';
+import { motion } from 'framer-motion';
 const Second = () => {
+	const scrollRef = useRef(null);
 	return (
-		<Element name='second'>
-			<div className={styles.container}>
-				<div className={styles.biography}>
+		<Element name="second">
+			<div  className={styles.container}>
+				<motion.div
+					initial={{ opacity: 0 }}
+					viewport={{ root: scrollRef }}
+					whileInView={{ opacity: 1 }}
+					transition={{
+						duration: 2,
+						delay: 0.2,
+					}}
+					className={styles.biography}
+				>
 					<h1 className={styles.title}>Who am i?</h1>
 					<p className={styles.text}>
 						I'm a 20-year-old who's been passionate about programming since the
@@ -19,7 +30,7 @@ const Second = () => {
 						for planning. I can't go a day without a well-structured agenda,
 						both for tech pursuits and the various aspects of my life.
 					</p>
-				</div>
+				</motion.div>
 			</div>
 		</Element>
 	);
