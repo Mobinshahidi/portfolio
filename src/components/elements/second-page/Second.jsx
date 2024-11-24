@@ -19,7 +19,7 @@ const Second = () => {
 				>
 					<h1 className={styles.title}>Who am i?</h1>
 					<p className={styles.text}>
-						I'm a 20-year-old who's been passionate about programming since the
+						I'm a 21-year-old who's been passionate about programming since the
 						age of 17. I started with Java, dabbled in Python, and eventually
 						found my love for front-end development. I'm fascinated by the world
 						of computers and technology and consider myself a lifelong learner.
